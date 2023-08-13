@@ -8,7 +8,7 @@ const Table = ({ sat }) => {
         <td> {data.name} </td>
         <td>{data.type} </td>
         <td>{data.launchDate}</td>
-        <td>{data.operational === true ? "Active" : "Inactive"}</td>
+        <td>{data.operational === true ? "active" : "inactive"}</td>
       </tr>
   );
   })
